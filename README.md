@@ -22,6 +22,7 @@ drupal_settings:
                 database: mydatabase
                 username: user
                 password: secret
+                isolevel: "SET SESSION transaction_isolation=\\'READ-COMMITTED\\'"
           config_directories: # Optional, Drupal 8
             sync: path/to/config
           trusted_hosts: # Optional, Drupal 8
